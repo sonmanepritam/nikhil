@@ -1,0 +1,288 @@
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color:rgb(66, 11, 113);
+    position: sticky;
+    top: 0px;
+}
+nav>#left{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+    gap: 20px;
+}
+#left>img{
+    width: 60%;
+}
+nav>#center{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#center>a{
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight:700;
+    line-height: 24px;
+}
+nav>#right{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+#right>p{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight:400;
+    line-height: 16px;
+    color: rgb(245, 243, 245)
+}
+#poster{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    background-color: rgb(77, 50, 133);
+    display: flex;
+}
+#poster>#left{
+       width: 50%;
+       height: 100%;
+       /* border: 1px solid red; */
+}
+#poster>#right{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+#title{
+    width: 100%;
+    height: 160px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+    line-height:0.5;
+}
+#title>#head{
+    font-size: 52px;
+    font-family: sans-serif;
+    font-weight:700;
+    line-height: 48px;
+    color: rgb(75, 9, 131);
+    line-height: 0.1;
+}
+#title>p{
+    margin-top: 5px;
+}
+#card{
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+#card>.cards{
+    width: 20%;
+    height: 96%;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: #e5daeb;
+}
+#poster1{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+#poster1>div{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+#poster1>#img{
+    background-image: url("https://images.ctfassets.net/pmzhtobns06n/3SKSFYVQOisuTtQ3cFYnnK/21d58b2d361ddd319377b89d09234539/Advent_Image_Destop_X2__2_.png?fm=webp&q=80&fm=webp&q=80");
+    background-size: contain;
+}
+#poster1>#img1{
+    background-image: url("https://images.ctfassets.net/pmzhtobns06n/2no6KljpAOFVYUj4wB79mA/b3be2908e2774ff28519ddeede8d18d2/CGD-Basket_gift-1440x1200.jpg?fm=webp&q=80&fm=webp&q=80");
+    background-size: contain;
+}
+#poster2{
+    width: 100%;
+    height: 600px;
+    background-image: url("https://images.ctfassets.net/pmzhtobns06n/4AXdo20zKJPIjnhtHt4ND0/e9d45c3aff03218c270bc5c88b89401a/Desktop_UK_Landing_Page.jpg?fm=webp&q=80");
+    background-size: contain;
+}
+#poster3{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    background-color: #4b0984;
+}
+#videoPoster{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+#card1{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    align-items: center;
+}
+#card1>.cards{
+        width: 20%;
+        height: 96%;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-size: contain;
+}
+#poster4{
+    width: 100%;
+    height: 1300px;
+    /* border: 1px solid black; */
+    display: flex;
+    background-image: url(https://plus.unsplash.com/premium_photo-1674048381806-814bb2126f73?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2hpdGUlMjBicmlja3xlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+}
+#poster4>div{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+#poster4>div>div{
+    border-radius: 20px;
+}
+#poster4>#left>div{
+      width: 71%;
+      height: 45%;
+      /* border: 1px solid black; */
+      margin-left: 150px;
+      margin-bottom: 30px;
+}
+#poster4>#right>#top{
+    width: 71%;
+    height: 45%;
+    /* border: 1px solid black; */
+    margin-left: 50px;
+    margin-top: 50px;
+    background-image: url(https://images.ctfassets.net/pmzhtobns06n/5tZqcteYF02OSW5rObw0IV/591df311a817bea7b5a4823ec3d1a469/GLOBAL_CROSS_LINKS_-_DESKTOP_-_200_YEARS.png?fm=webp&q=80&fm=webp&q=80);
+    background-size: cover;
+}
+#poster4>#right>#bottom{
+    width: 71%;
+    height: 45%;
+    /* border: 1px solid black; */
+    margin-left: 50px;
+    background-image: url(https://images.ctfassets.net/pmzhtobns06n/7Ei3T73AqiLE7o7UbiJnz3/dc791e12658a547b6c41cfb5104e3c18/Background_images_desk.jpg?fm=webp&q=80&fm=webp&q=80);
+    background-size: cover;
+}
+#poster5{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+}
+#poster5>#top{
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    font-size: 52px;
+    font-weight: 700;
+    font-family: sans-serif;
+    line-height: 48px;
+    color: rgb(75, 9, 133);
+    
+}
+#poster5>#bottom{
+    width: 100%;
+    height: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+#poster5>#bottom>#card{
+    width: 20%;
+    height: 90%;
+    border:1px solid black;
+    border-radius: 20px;
+}
+#poster6{
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(75, 9, 132);
+    display: flex;
+    justify-content: right;
+}
+#poster6>img{
+     width: 20%;
+     margin-right: 50px;
+}
+footer{
+    width: 100%;
+    height: 250px;
+    /* border: 1px solid black; */
+}
+footer>#top{
+    width: 90%;
+    height: 70%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+    border-bottom: 2px solid #a587b9;
+}
+#top>#left{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    
+}
+#top>#right{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: rgb(78, 5, 131);
+    gap: 20px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 24px;
+}
+footer>#bottom{
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid red; */
+}
+
